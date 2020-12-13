@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CategoriesComponent } from './views/categories/categories.component';
 import { PrioritiesComponent } from './views/priorities/priorities/priorities.component';
+import { TasksComponent } from './views/tasks/tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CategoriesComponent,
-    PrioritiesComponent
+    PrioritiesComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
